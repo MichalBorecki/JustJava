@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Tylko Java</string>
+    <string name="quantityHeader">Ilość kaw</string>
+    <string name="toppingsHeader">Polewy</string>
+    <string name="Topping_1">Bita śmietana</string>
+    <string name="Topping_2">Czekolada</string>
+    <string name="name_hint">Imię i nazwisko</string>
+    <string name="orderButtonText">Wyślij zamówienie</string>
+    <string name="thank_you">Dziękujemy!</string>
+    <string name="too_many_coffees">Możesz zmaówić maksymalnie 100 kaw</string>
+    <string name="too_few_coffees">Zamów przynajmniej 1 kawę</string>
+    <string name="no_name_toast">Wpisz swoje imię</string>
+    <string name="order_summary_name">Imię: <xliff:g id="personName" example="John">%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">"Czy dodać bitą śmietanę? "</string>
+    <string name="order_summary_chocolate">"Czy dodać czekoladę? "</string>
+    <string name="order_summary_quantity">Ilość kaw: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_total">Wartość zamówienia: <xliff:g example="2" id="price">%s</xliff:g></string>
+    <string name="email_topic">"Tylko Java zamówienie dla "</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="coffee_logo">Logo coffee</string>
+</resources>
+
+

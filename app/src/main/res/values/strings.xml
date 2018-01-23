@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name_hint">Name</string>
+
+    <!-- Header of toppings [CHAR LIMIT=20] -->
+    <string name="toppingsHeader">Toppings</string>
+
+    <!--Name of first topping: Whipped cream [CHAR LIMIT=20] -->
+    <string name="Topping_1">Whipped cream</string>
+
+    <!--Name of second topping: Chocolate [CHAR LIMIT=20] -->
+    <string name="Topping_2">Chocolate</string>
+
+    <!-- Header of quantity and increment and decrement buttons [CHAR LIMIT=20] -->
+    <string name="quantityHeader">Quantity of coffees</string>
+
+    <!-- Text of button for sending order [CHAR LIMIT=16]-->
+    <string name="orderButtonText">Send Order</string>
+
+    <!-- Message displayed when the customer pressed the button before entering his name [CHAR LIMIT=20]-->
+    <string name="no_name_toast">Please enter your Name</string>
+
+    <!-- Message displayed when the customer tries to request more than 100 coffees [CHAR LIMIT=50]-->
+    <string name="too_many_coffees">You cannot order more then 100 coffees</string>
+
+    <!-- Message displayed when the customer tries to request less than 1 coffee [CHAR LIMIT=50]-->
+    <string name="too_few_coffees">You have to order minimum 1 coffee</string>
+
+    <!--Subject line in email. It will be in format of "Just Java order for John", where John is the user name  [CHAR LIMIT=NONE]-->
+    <string name="email_topic">Just Java order for </string>
+
+    <!--First line in order summary in email. It will be in format of "Name: John", where John is the user name  [CHAR LIMIT=NONE]-->
+    <string name="order_summary_name">Name: <xliff:g id="personName" example="John">%s</xliff:g></string>
+
+    <!--Part of order summery in email, whether the user chose to add whipped cream [CHAR LIMIT=25]-->
+    <string name="order_summary_whipped_cream">Add whipped cream? </string>
+
+    <!--Part of order summery in email, whether the user chose to add chocolate [CHAR LIMIT=25]-->
+    <string name="order_summary_chocolate">Add chocolate? </string>
+
+    <!--Positive respond for question about added topping by user  [CHAR LIMIT=15]-->
+    <string name="yes">Yes</string>
+
+    <!--Negative respond for question about added topping by user  [CHAR LIMIT=15]-->
+    <string name="no">No</string>
+
+    <!--Part of order summery in email, which says about quantity of coffees. It will be in format "Quantity: 2", where 2 is no of coffees [CHAR LIMIT=NONE]-->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+    <!--Part of order summery in email, which says about value of order. It will be in format "Total: $2", where $2 is a charge for order [CHAR LIMIT=NONE]-->
+    <string name="order_summary_total">Total: <xliff:g id="price" example="2">%s</xliff:g></string>
+
+    <!--Last line in order summary in email, it is thank you message [CHAR LIMIT=NONE]-->
+    <string name="thank_you">Thank you!</string>
+
+    <!--Description of drawable which is coffee logo [CHAR LIMIT=NONE]-->
+    <string name="coffee_logo">Coffee logo</string>
+
+
+</resources>
