@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
      * @param hasChocolate    is whether or not the user wants chocolate topping
      * @return text summary
      */
-    private String createOrderSummary(int price, String personName, boolean hasChocolate, boolean hasWhippedCream) {
+    private String createOrderSummary(int price, String personName, boolean hasWhippedCream, boolean hasChocolate) {
         String priceMessage = getString(R.string.order_summary_name, personName);
         priceMessage += "\n" + getString(R.string.order_summary_whipped_cream);
         if (hasWhippedCream) {
