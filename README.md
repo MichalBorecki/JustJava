@@ -5,7 +5,7 @@ Google Developer Challenge Scholarship: Android Basics > Just Java app
 # Screen Shoot
 <p align="left"> 
 <a href="https://imgur.com/vLhQmFY"></a>
-<img src="https://i.imgur.com/DBsQZIG.png"/ style="max-width:100%;" width="250">
+<img src="https://imgur.com/vLhQmFY.png"/ style="max-width:100%;" width="250">
 </p>
 
 # Contacts
